@@ -21,9 +21,9 @@ class admin extends CI_Controller {
 // (1)
 	public function index()
 	{
-    $table_array = array('brand','catrgory');
-    $data['category_brand'] = $this->admin_proses->show_brand_category($table_array);
-		$this->load->view('admin/admin_home',$data);
+    $table_array = array('post');
+    $data['category_brand'] = $this->admin_proses->show_post($table_array);
+		$this->load->view('admin/admin_home');
 	}
 // end (1)
 
