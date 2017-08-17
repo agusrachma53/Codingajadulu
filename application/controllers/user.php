@@ -27,6 +27,29 @@ class user extends CI_Controller {
 
 
 public function show_blog(){
+  // $date = date('Y/m/d');
+  // $sql = "SELECT * FROM post WHERE 'date' <= " . $date;
+  // $data = $this->db->query($sql);
+  // if($data){
+  //   foreach($data->result() as $year){
+  //     $yearstr = substr($year->date,0,4);
+  //     echo "<div style='display:block'>
+  //         <ul>
+  //           <li>" . $yearstr . "
+  //             <ul>
+  //               <li>" .
+  //                 $bulan = substr($year->date,5,2);
+  //                 print_r($bulan)
+  //               . "</li>
+  //             </ul>
+  //           </li>
+  //         </ul>
+  //     </div>";
+  //   }
+  // }
+  //     exit;
+
+
   $this->load->view('user/user_blog');
 }
 

@@ -41,31 +41,166 @@
 <!-- /.container -->
 </nav>
 <!-- Intro Header -->
-<header style="background-image:url('<?php echo base_url("assets/")?>images/frontend/home_background.jpg');" class="intro">
-<div class="intro-body">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h1 class="brand-heading">Refrensi Resep dan Tempat Makan Enak</h1>
-				<p class="intro-text">
-					Makan Gak Makan Yang Penting Kumpul
-				</p>
-				<a href="#about" class="btn btn-circle page-scroll">
-				<i class="fa fa-angle-double-down animated"></i>
-				</a>
-			</div>
-		</div>
-	</div>
+<div style="background-image:url('images/frontend/bg_blog.jpg');" class="header2">
 </div>
-</header>
 <!-- About Section -->
 <section id="about">
-<div class="container content-section text-center">
+<div class="container content-section text-center _content">
 	<div class="row">
-		<h2>Latest Post</h2>
-		<div class="col-lg-12">
-
+		<h2>Delicious food recipes</h2>
+		<div class="category_resep container">
+			<ul class="col-md-5 nav_category">
+				<li><a href="">Indonesian Food</a></li>
+				<li><a href="#">Other Country Food</a></li>
+			</ul>
+			<form class="form-inline search col-md-4 col-md-offset-1">
+			  <div class="form-group">
+			    <label class="sr-only" for="email">Email address:</label>
+			    <input type="email" class="form-control" id="email">
+			  </div>
+			  <input type="submit" name="search" class="btnghost" value="Search">
+			</form>
 		</div>
+	</div>
+	<div class="row">
+		<section class="thumb_blog col-md-12">
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Asam Buncis Medan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Bandung</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="food_tile thumbnail">
+					<img src="https://i.ebayimg.com/00/s/NTMzWDgwMA==/z/4kcAAOSwHptY95GT/$_35.JPG" alt="">
+					<div class="ket">
+						<p>Mendoan</p>
+						<div class="rate">
+							<p>
+								<?php for($i=1;$i<=5;$i++){ ?>
+									<img src="images/icon/star.png" alt="star">
+								<?php } ?>
+							</p>
+							<p>Tasik Malaya</p>
+						</div>
+						<a href="#" class="btnghost">Read More</a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 </div>
 </section>
